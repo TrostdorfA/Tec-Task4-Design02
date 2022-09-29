@@ -1,0 +1,328 @@
+header {
+    background-image: url(../assets/img/design1_image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+body > p {
+    font-style: italic;
+    font-size: 60px;
+    display: initial;
+    font-weight: bold; 
+}
+
+nav > ul > li {
+    list-style-type: none;
+    background-color: #0e6dcb;
+    padding: 0px 20px 0px 20px;;
+}
+
+#button {
+    background-color:rgb(59, 171, 59);
+}
+
+li > a {
+    text-decoration: none;
+    color: #faf7f7;
+    font-size: 18px;
+}
+
+.text p > a {
+    text-decoration: underline 2px black;
+}
+
+.container {
+    position: relative;
+    height: 35vh;
+    display: flex;
+    justify-content:right;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.campo:last-child {
+    justify-content: right;
+}
+
+li.opcion
+{
+   float: left;
+   margin: 0px 6px;
+   border: 2px solid black;
+   /* border-bottom:4px black solid;
+   border-right:4px black solid; */
+   box-shadow: 6px 6px 1px -1px rgba(0,0,0,0.48);
+   /*min-height: 100px; */
+}
+
+a.opcion
+{
+    display: block;
+    padding: 5px;
+}
+
+main > div {
+    display: flex;
+    align-content: space-around;
+}
+
+.dates {
+    width: 600px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.dates dt {
+    margin-top: 20px;
+}
+
+.text {
+    width: 800px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+main > div > div > img {
+    height: 150px;
+}
+
+.caja {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    background: #ffffff;
+    margin: 0px 0px 25px;
+    overflow: hidden;
+    padding: 8px;
+    text-align: center;
+    border: 2px solid #777777;
+}
+
+nav {
+    position: absolute;
+    top: -40px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.marg {
+    margin-top: 7%;
+}
+
+.margin {
+    margin: 0px;
+    text-indent: 20px;
+    font-size: 17px;
+}
+
+.margin2 {
+    margin: 3% 50px 6% 0px;
+    text-indent: 6%;
+}
+
+.margin3 {
+    margin: 0px 50px 0px -6%;
+}
+
+.rules-title {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 15%;
+}
+
+.div {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px;
+    margin-left: 25%;
+    list-style-position: inside;
+}
+
+li > p {
+    font-weight: normal;
+    display: inline;
+}
+
+ol > li {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.ol li {
+    font-weight: normal;
+    margin: 0px 40px 0px -40px;
+    list-style-type:lower-latin;
+}
+
+.ul li {
+    margin: -15px 40px 0px 5px;
+    text-indent: 2%;
+    list-style-type: circle;
+}
+
+.gamediv {
+    font-family: 'Lato', sans-serif;
+    width: 700px;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.pgame {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 23%;
+    margin-bottom: 1%;
+}
+
+.underline {
+    text-decoration: underline 2px black;
+    margin-bottom: 6%;
+}
+
+.table {
+    width: 810px;
+}
+
+.table th {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.table td {
+    padding-left: 45px;
+}
+
+.locth {
+    padding-right: 40px;
+}
+
+.ulgames {
+    margin-top: 10%;
+    padding: initial;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.ulgames li {
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.game_email {
+    text-align: end;
+    margin-top: -40px;
+}
+
+.game_email p > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.paddli {
+    padding-top: 6%;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-form {
+    margin: 0% 27% 0%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-form div {
+    margin: 9px;
+}
+
+.container-form div > input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 18px;
+}
+
+.container-sixth-field input {
+    margin-right: 40px;
+}
+
+.container-form ul {
+    list-style-type: none;
+    padding-left: initial;
+    margin-left: 10px;
+}
+
+.container-li p {
+    font-weight: bold;
+}
+
+.container-li div {
+    margin-left: initial;
+    display: flex;
+}
+
+.container-li div > div {
+    flex-direction: column;
+}
+
+.container-li div > label {
+    margin-right: 100px;
+    margin: 5px;
+}
+
+#preschool {
+    margin-right: 40px;
+}
+
+.signmarg {
+    margin: 10px 0px 0px 0px;
+}
+
+.signmarg p {
+    margin-top: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.size {
+    font-size: 18px;
+}
